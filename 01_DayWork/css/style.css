@@ -1,0 +1,21 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: darkgray;
+}
+main{
+    height: 200px;
+    width: 600px;
+    background:white;
+    margin: 40px 40px;
+    padding: 0px 5px;
+    border: 1px solid black;
+
+    
+}
+#footer {
+    background-color: whitesmoke;
+    color: darkgray;
+    padding: 20px;
+    text-align: center;
+  }

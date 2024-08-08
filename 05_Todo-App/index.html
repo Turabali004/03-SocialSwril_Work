@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="todoapp, todoapp with pure js" />
+    <meta name="author" content="Turab,Ali" />
+    <link rel="stylesheet" href="stylesheet/style.css" />
+    <title>Todo List</title>
+  </head>
+  <body>
+    <div class="min-h-screen w-full flex items-center flex-col py-10">
+      <h1 class="font-serif md:text-2xl lg:text-4xl py-4 text-[#F1C28E]">
+        My-Todo_App
+      </h1>
+      <div
+        class="min-h-96 w-[90%] bg-[#F1C28E] rounded-lg md:w-[55%] lg:w-[40%]"
+      >
+        <!-- Input and button -->
+        <div
+          class="h-[80px] w-full bg-white text-black flex justify-center items-center"
+        >
+          <input
+            id="userData"
+            type="text"
+            class="w-[70%] shadow-md shadow-slate-600 px-2 py-1 focus:outline-none lg:w-[50%]"
+          />
+          <button
+            id="addTodo"
+            class="bg-[#312051] text-white py-1 px-4 font-bold shadow-md shadow-black cursor-pointer lg:px-8 lg:font-extrabold"
+          >
+            Add
+          </button>
+        </div>
+
+        <!-- todos -->
+        <div class="py-6">
+          <ul
+            id="todoList"
+            class="h-16 w-[90%] bg-[#312051]flex flex-col gap-5 m-auto px-2 rounded-md"
+          >
+            <!-- <li class="flex justify-between items-center "> -->
+            <!-- todos-task -->
+            <!-- <div class="flex justify-center items-center">
+                <p>01)</p>
+                This is my first Todo
+              </div> -->
+            <!-- buttons -->
+            <!-- <div
+                class="py-1 flex justify-end gap-2 px-3 text-black font-semibold"
+              >
+                <button class="px-3 py-1 text-[#312051] bg-[#F1C28E]">
+                  DEL
+                </button>
+                <button class="px-3 py-1 text-[#312051] bg-[#F1C28E]">
+                  Edit
+                </button>
+                <button class="px-3 py-1 text-[#312051] bg-[#F1C28E]">
+                  Done
+                </button>
+              </div> -->
+
+            <!-- </li> -->
+          </ul>
+          <!-- <div
+            class="w-[90%] min-h-12 relative bg-[#312051] p-2 m-auto rounded-md text-sm flex flex-col gap-2 md:flex md:flex-row md:items-center"
+          >
+            <div class="flex gap-4">
+              <h1 class="text-[#F1C28E] font-extrabold">1)</h1>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit Lorem
+                ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit..
+              </p>
+            </div>
+
+            <div
+              class="py-1 flex justify-end gap-2 px-3 text-black font-semibold"
+            >
+              <button class="px-3 py-1 text-[#312051] bg-[#F1C28E]">DEL</button>
+              <button class="px-3 py-1 text-[#312051] bg-[#F1C28E]">
+                Edit
+              </button>
+              <button class="px-3 py-1 text-[#312051] bg-[#F1C28E]">
+                Done
+              </button>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- js -->
+    <script src="./script.js/index.js"></script>
+  </body>
+</html>

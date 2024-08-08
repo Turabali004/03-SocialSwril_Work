@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #312051;
+    color: whitesmoke;
+}
+.secondaryColor{
+    color: #F1C28E;
+}
+input{
+    position: relative;
+}
+#parentTodos{
+    height: 100%;
+    min-width: 100px;
+    /* background: #000; */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 05px;
+}
+button{
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 03px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.todoLists{
+    width: 95%;
+    height:50px ;
+    background-color: #312051;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 5px;
+    padding-block: 08px;
+    border-radius: 15px;
+    margin-block: 5px;
+
+    /* min-height:20px ;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #312051;
+    list-style: none;
+    display: flex; */
+}
+.doneLists{
+    text-decoration: line-through;
+}
+/* min-h-12 w-[90%] m-auto flex justify-between px-2 bg-[#312051] items-center rounded-lg */

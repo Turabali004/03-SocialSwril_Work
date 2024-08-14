@@ -23,7 +23,7 @@ input{
     align-items: center;
     gap: 05px;
 }
-button{
+.todoLists button{
     background-color: white;
     color: black;
     border: none;
@@ -42,17 +42,17 @@ button{
     padding-block: 08px;
     border-radius: 15px;
     margin-block: 5px;
-
-    /* min-height:20px ;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #312051;
-    list-style: none;
-    display: flex; */
 }
 .doneLists{
     text-decoration: line-through;
+    color: gray;
+    background-color: rgb(193, 191, 191);
+}
+.dontHide{
+    text-decoration: none;
+    color: black;
+}
+#removeTodo{
+    display: none;
 }
 /* min-h-12 w-[90%] m-auto flex justify-between px-2 bg-[#312051] items-center rounded-lg */
